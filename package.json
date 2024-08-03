@@ -4,6 +4,8 @@
   "description": "this is a namaste react by priyanshi patel",
   "main": "app.js",
   "scripts": {
+   "start": "parcel ./src/index.html --no-cache",
+    "build:parcel": "parcel build ./src/index.html --no-cache",
     "test": "jest"
   },
   "repository": {

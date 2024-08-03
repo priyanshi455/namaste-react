@@ -1,14 +1,35 @@
 import React from "react";
-import ReactDOM from "react-domt";
-const parent = React.createElement
-("div",{id: "parent"},
-"hello world from React!",
-React.createElement
-("div",{id : "child"},[React.createElement("h1",{},"i am an h1 tag"),React.createElement("h1",{},"i am an h2 tag")]),
-);
+import ReactDOM from "react-dom/client";
 
+const Header = () => {
+    return (
+        <div className="header">
+            <div className="logo-container">
+                <img
+                    className="logo"
+                    src="http://www.psdtemplatedesign.com/wp-content/uploads/edd/2017/12/logo-design.jpg"
+                    alt="Logo"
+                />
+            </div>
+        </div>
 
-console.log(parent);
-// const heading = React.createElement("h1",{},"hello world from React!");
+        <div className="nav-item">
+            <ul>
+                <li>Home</li>
+                <li>Contact Us</li>
+                <li>About Us</li>
+                <li>Card</li>
+            </ul>
+        </div>
+    );
+};
+const card= () => {
+    
+}
+
+const AppLayout = () => {
+    return <Header />;
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(<AppLayout />);
