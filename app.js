@@ -23,8 +23,28 @@ const Header = () => {
         // </div>
     );
 };
-const card= () => {
-return 
+
+const styleCard=() =>{
+    backgroundcolor: "gray";
+}
+
+const RestaurantCard= () => {
+return (
+    <div className="res-card" styleCard={styleCard}>
+        <h3>Meghana Food</h3>
+    </div>
+)
+}
+
+const Body= () => {
+    return (
+   <div className="body">
+    <div className="search">Search</div>
+    <div className="res-card">
+        <RestaurantCard />
+    </div>
+   </div>
+    )
 }
 
 const AppLayout = () => {
