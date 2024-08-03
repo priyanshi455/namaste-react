@@ -13,18 +13,18 @@ const Header = () => {
             </div>
         </div>
 
-        <div className="nav-item">
-            <ul>
-                <li>Home</li>
-                <li>Contact Us</li>
-                <li>About Us</li>
-                <li>Card</li>
-            </ul>
-        </div>
+        // <div className="nav-item">
+        //     <ul>
+        //         <li>Home</li>
+        //         <li>Contact Us</li>
+        //         <li>About Us</li>
+        //         <li>Card</li>
+        //     </ul>
+        // </div>
     );
 };
 const card= () => {
-    
+return 
 }
 
 const AppLayout = () => {

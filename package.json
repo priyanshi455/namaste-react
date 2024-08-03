@@ -2,10 +2,11 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "this is a namaste react by priyanshi patel",
+  "type":"module",
   "main": "app.js",
   "scripts": {
-   "start": "parcel ./src/index.html --no-cache",
-    "build:parcel": "parcel build ./src/index.html --no-cache",
+   "start": "parcel index.html",
+    "build:parcel": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
