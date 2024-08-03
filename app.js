@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 
 const Header = () => {
     return (
+     <div>
         <div className="header">
             <div className="logo-container">
                 <img
@@ -13,19 +14,21 @@ const Header = () => {
             </div>
         </div>
 
-        // <div className="nav-item">
-        //     <ul>
-        //         <li>Home</li>
-        //         <li>Contact Us</li>
-        //         <li>About Us</li>
-        //         <li>Card</li>
-        //     </ul>
-        // </div>
+        <div className="nav-item">
+            <ul>
+                <li>Home</li>
+                <li>Contact Us</li>
+                <li>About Us</li>
+                <li>Card</li>
+            </ul>
+        
+    </div>
+    </div>
     );
 };
 
 const styleCard=() =>{
-    backgroundcolor: "gray";
+    backgroundcolor: "#f0f0f0";
 }
 
 const RestaurantCard= () => {

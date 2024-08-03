@@ -17,7 +17,7 @@
 98D:\web development\namaste-react\node_modules\css-select\node_modules\entities\lib\esm\encode.d.ts133663919696264693 0
 94D:\web development\namaste-react\node_modules\@parcel\core\lib\requests\ParcelConfigRequest.js133663919720420246 0
 107D:\web development\namaste-react\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\index.d.ts133663919532376496 0
-39D:\web development\namaste-react\app.js133671541906124690 0
+39D:\web development\namaste-react\app.js133671555176563853 0
 71D:\web development\namaste-react\node_modules\loose-envify\package.json133663933424026710 0
 73D:\web development\namaste-react\node_modules\css-select\lib\general.d.ts133663919533171624 0
 70D:\web development\namaste-react\node_modules\supports-color\readme.md133663919531210998 0
@@ -25,7 +25,7 @@
 99D:\web development\namaste-react\node_modules\csso\node_modules\css-tree\lib\syntax\pseudo\index.js133663919982350236 0
 75D:\web development\namaste-react\node_modules\semver\functions\satisfies.js133663919576128224 0
 78D:\web development\namaste-react\node_modules\css-select\lib\attributes.js.map133663919532411639 0
-43D:\web development\namaste-react\index.html133670494457269168 0
+43D:\web development\namaste-react\index.html133671549000157832 0
 73D:\web development\namaste-react\node_modules\dom-serializer\package.json133663919531458358 0
 50D:\web development\namaste-react\package-lock.json133670539317459316 0
 138D:\web development\namaste-react\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\common\nthWithOfClause.js133663919533363359 0
